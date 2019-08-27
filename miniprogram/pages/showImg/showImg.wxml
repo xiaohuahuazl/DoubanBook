@@ -1,0 +1,6 @@
+<view>
+  <view>
+    <button type="primary" bindtap="callImgUpload">上传图片</button>
+  </view>
+
+</view>

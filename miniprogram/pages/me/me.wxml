@@ -1,0 +1,11 @@
+<view>
+<view wx:for="{{books}}" wx:key="index"></view>
+  <view>{{books.title}}</view>
+  <image mode="widthFix" src="{{item.image}}"></image>
+  <view>
+    {{item.summary}}
+  </view>
+<view>
+  <button type="primary" bindtap="addBook">添加图书</button>
+</view>
+</view>

@@ -1,0 +1,30 @@
+{
+  "name": "douban-book",
+  "version": "1.0.0",
+  "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuahuazl/DoubanBook.git"
+  },
+  "keywords": [
+    "doubanBook"
+  ],
+  "author": "姜小画",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaohuahuazl/DoubanBook/issues"
+  },
+  "homepage": "https://github.com/xiaohuahuazl/DoubanBook#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "doubanbook": "^1.0.1",
+    "miniprogram-datepicker": "^0.3.0",
+    "vant-weapp": "^0.5.20"
+  },
+  "devDependencies": {}
+}
